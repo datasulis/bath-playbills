@@ -45,6 +45,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'rails_12factor' # For heroku
 gem 'rack-google-analytics'
 
+gem 'high_voltage', '~> 2.2.1'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'

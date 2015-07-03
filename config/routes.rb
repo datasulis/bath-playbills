@@ -53,8 +53,12 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  root to: "home#index"
+  get '/about' => 'high_voltage/pages#show', id: 'about'
+    
   get "/pages/random" => 'pages#random'
   
+    
   resources :pages
   
 end
