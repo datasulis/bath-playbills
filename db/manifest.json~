@@ -1,0 +1,53 @@
+{
+  "config": {
+    "image_base_url": "http://localhost:3000",
+  },
+  "books": {
+    "1812-1818": {
+      "title": "A collection of playbills from Theatre Royal, Bath 1812-1818",
+      "catalogue": "http://catalogue.bl.uk/primo_library/libweb/action/dlDisplay.do?vid=BLVU1&afterPDS=true&institution=BL&docId=BLL01016661285",
+      "catalogue_id": "vdc_100022589024.0x000002",
+      "pdf": "http://access.bl.uk/item/pdf/ark:/81055/vdc_100022589024.0x000002",
+      "start_date": "1815-01-03",
+      "end_date": "1818-12-31",
+      "pages": 337        
+    },
+    "1819-1821": {
+      "title": "A collection of playbills from Theatre Royal, Bath 1834-1840",
+      "catalogue_id": "vdc_100022589028.0x000002",
+      "catalogue": "http://catalogue.bl.uk/primo_library/libweb/action/dlDisplay.do?vid=BLVU1&afterPDS=true&institution=BL&docId=BLL01016661326",
+      "pdf": "http://access.bl.uk/item/pdf/ark:/81055/vdc_100022589028.0x000002",
+      "start_date": "1819-01-01",
+      "end_date": "1821-12-31",
+      "pages": 401        
+    },
+    "1824-1830": {
+      "title": "A collection of playbills from Theatre Royal, Bath 1824-1830",  
+      "catalogue": "http://catalogue.bl.uk/primo_library/libweb/action/dlDisplay.do?vid=BLVU1&afterPDS=true&institution=BL&docId=BLL01016661327",
+      "catalogue_id": "vdc_100022589026.0x000002",
+      "pdf": "http://access.bl.uk/item/pdf/ark:/81055/vdc_100022589026.0x000002",
+      "start_date": "1824-01-02",
+      "end_date": "1827-04-20",
+      "pages": 423        
+    },
+    "1831-1840": {
+      "title": "A collection of playbills from Theatre Royal, Bath 1831-1840",
+      "catalogue": "http://catalogue.bl.uk/primo_library/libweb/action/dlDisplay.do?vid=BLVU1&afterPDS=true&institution=BL&docId=BLL01016661328",
+      "catalogue_id": "vdc_100022589042.0x000002",
+      "pdf": "http://access.bl.uk/item/pdf/ark:/81055/vdc_100022589042.0x000002",
+      "start_date": "1836-01-26",
+      "end_date": "1840-12-30",
+      "pages": 473        
+    },
+    "1841-1851": {
+      "title": "A collection of playbills from Theatre Royal, Bath 1841-1851",
+      "catalogue": "http://catalogue.bl.uk/primo_library/libweb/action/dlDisplay.do?vid=BLVU1&afterPDS=true&institution=BL&docId=BLL01016661329",
+      "catalogue_id": "vdc_100022589036.0x000002",
+      "pdf": "http://access.bl.uk/item/pdf/ark:/81055/vdc_100022589036.0x000002",
+      "start_date": "1841-01-01",
+      "end_date": "1845-04-12",
+      "pages": 420        
+    }
+  }
+}
+

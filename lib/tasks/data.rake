@@ -19,8 +19,8 @@ namespace :data do
   end
 
   task :create_images => :environment do
-    #DOCS = ["1812-1818", "1824-1830", "1831-1840", "1819-1821", "1841-1851"]
-    DOCS = ["1819-1821"]
+    DOCS = ["1812-1818", "1824-1830", "1831-1840", "1819-1821", "1841-1851"]
+    #DOCS = ["1819-1821"]
 
     DOCS.each do |doc|
       sh %{docsplit images -o tmp/images/#{doc} -f jpg tmp/data/#{doc}.pdf}

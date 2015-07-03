@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+manifest = JSON.load( File.new( "db/manifest.json") )
+manifest["books"].each do |slug, hash|
+  Book.create_from_manifest(slug, hash)
+end
