@@ -58,7 +58,9 @@ Rails.application.routes.draw do
     
   get "/pages/random" => 'pages#random'
   
-    
+  get "/auth/:provider/callback", to: "sessions#create"
+  get "/sessions/destroy", to: "sessions#destroy"
+      
   resources :pages
   
 end

@@ -18,7 +18,12 @@
 @import "bootstrap";
 @import "font-awesome";
  
+@import "pages";
  
 body {
     padding-top: 70px;
-} 
+}
+
+.thumbnail {
+	width: 250px;
+}

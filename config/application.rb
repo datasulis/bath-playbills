@@ -24,5 +24,8 @@ module BathPlaybills
     config.active_record.raise_in_transactional_callbacks = true
     
     IMAGE_BASE=ENV["IMAGE_BASE"]
+    TWITTER_KEY=ENV["TWITTER_KEY"]
+    TWITTER_SECRET=ENV["TWITTER_SECRET"]
+      
   end
 end

@@ -4,6 +4,7 @@ Breathing some life into the history of the Royal Theatre, Bath.
 
 # Installation
 
+TODO
 
 # Play Bill Data
 
@@ -122,3 +123,11 @@ Editing Help
           - 3 archive playbills from this period
 1805-today - new Theatre Royal, http://en.wikipedia.org/wiki/Theatre_Royal,_Bath
 
+## Tasks
+
+*. Add Book pages, with 3 random pages, plus links to select a page
+*. Add twitter sign-in, to add user to session
+*. Add Bill model
+*. Allow user to add date to a Page
+*. Add count down of unedited pages to homepage
+*. Add Bills

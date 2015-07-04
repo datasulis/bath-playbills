@@ -1,1 +1,15 @@
-<img src="<%= image(@page) %>" />
+<div class="playbill container">
+	<div class="metadata row">
+		<div class="col-md-6">
+			<a href="<%= image(@page) %>">
+				<img class="picture" src="<%= image(@page) %>" />		
+			</a>
+		</div>
+		<div class="col-md-6">
+			<h2>Page <%= @page.id %></h2>
+			<div>
+			From page <%= @page.page_number %> in "<%= @page.book.title %>"
+			</div>
+		</div>	
+	</div>
+</div>
