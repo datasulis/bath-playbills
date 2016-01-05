@@ -126,7 +126,6 @@ Editing Help
 ## Tasks
 
 *. Add Book pages, with 3 random pages, plus links to select a page
-*. Add twitter sign-in, to add user to session
 *. Add Bill model
 *. Allow user to add date to a Page
 *. Add count down of unedited pages to homepage

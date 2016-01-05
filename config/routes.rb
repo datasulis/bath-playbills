@@ -62,5 +62,5 @@ Rails.application.routes.draw do
   get "/sessions/destroy", to: "sessions#destroy"
       
   resources :pages
-  
+  resources :books  
 end

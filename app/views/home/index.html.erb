@@ -1,16 +1,16 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
   <div class="container">
-    <h1>Bath Playbills</h1>
-    <p>Exposing the history of the Royal Theatre in Bath</p>
-    <p><a class="btn btn-primary btn-lg" href="/about" role="button">Learn more &raquo;</a></p>
+    <h1>Bath Play Bills</h1>
+    <p><strong><%= Page.count %></strong> playbills from the Royal Theatre Bath <strong>1812-1851</strong></p>
+    <p><a class="btn btn-primary btn-lg" href="/books" role="button">View books &raquo;</a></p>
   </div>
 </div>
 
 <div class="container">
 
   <div class="row">
-	<% @samples.each do |page| %>
+	<% @samples[0..2].each do |page| %>
 	    <div class="col-md-4">
 			<a href="<%= page_path(page) %>">
 				<img class="thumbnail" src="<%= image(page) %>" />
@@ -20,6 +20,18 @@
 	
   </div>
 
+  <div class="row">
+	<% @samples[3..5].each do |page| %>
+	    <div class="col-md-4">
+			<a href="<%= page_path(page) %>">
+				<img class="thumbnail" src="<%= image(page) %>" />
+			</a>
+	    </div>
+	<% end %>
+	
+  </div>
+
+  
   <hr>
 
   <footer>
