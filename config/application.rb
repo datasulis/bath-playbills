@@ -22,5 +22,10 @@ module BathPlaybills
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+    
+    IMAGE_BASE=ENV["IMAGE_BASE"]
+    TWITTER_KEY=ENV["TWITTER_KEY"]
+    TWITTER_SECRET=ENV["TWITTER_SECRET"]
+      
   end
 end

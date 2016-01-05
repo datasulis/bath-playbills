@@ -1,0 +1,40 @@
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+  <div class="container">
+    <h1>Bath Play Bills</h1>
+    <p><strong><%= Page.count %></strong> playbills from the Royal Theatre Bath <strong>1812-1851</strong></p>
+    <p><a class="btn btn-primary btn-lg" href="/books" role="button">View books &raquo;</a></p>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="row">
+	<% @samples[0..2].each do |page| %>
+	    <div class="col-md-4">
+			<a href="<%= page_path(page) %>">
+				<img class="thumbnail" src="<%= image(page) %>" />
+			</a>
+	    </div>
+	<% end %>
+	
+  </div>
+
+  <div class="row">
+	<% @samples[3..5].each do |page| %>
+	    <div class="col-md-4">
+			<a href="<%= page_path(page) %>">
+				<img class="thumbnail" src="<%= image(page) %>" />
+			</a>
+	    </div>
+	<% end %>
+	
+  </div>
+
+  
+  <hr>
+
+  <footer>
+    <p>&copy; Bath:Hacked 2015</p>
+  </footer>
+</div> <!-- /container -->

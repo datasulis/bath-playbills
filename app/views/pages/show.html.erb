@@ -1,0 +1,14 @@
+<div class="playbill container">
+	<div class="metadata row">
+		<div class="col-md-6">
+			<a href="<%= image(@page) %>">
+				<img class="picture" src="<%= image(@page) %>" />		
+			</a>
+		</div>
+		<div class="col-md-6">
+			<h2>
+			"<i><%= @page.book.title %></i>", page <%= @page.page_number %>
+			</h2>
+		</div>	
+	</div>
+</div>

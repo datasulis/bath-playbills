@@ -1,0 +1,10 @@
+<div class="container">
+
+	<% @books.each do |book| %>
+		<div class="row">
+			<div class="col-md-8">
+				<h3><a href="<%= book_path(book) %>"><%= book.title %></a></h3>
+			</div>
+		</div>
+	<% end %>
+</div> <!-- /container -->
